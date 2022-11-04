@@ -8,10 +8,8 @@ var form = document.getElementById('Página1');
         var telefone = document.getElementById('Telefone');
         var estado = document.getElementById('Estado');
         var cidade = document.getElementById('Cidade');
-        var universidade = document.getElementById('Universidade');
-        var formato = document.getElementById('Formato-(presencial/EAD)');
-        var matricula = document.getElementById('Número-de-matrícula');
-        var curso = document.getElementById('Curso');
+        var escolaridade = document.getElementById('escolaridade');
+        var estuda = document.getElementById('estuda');
         var trabalha = document.getElementById('Trabalha?');
         var necessidades = document.getElementById('Necessidades-especiais?');
         var seSim = document.getElementById('Se-sim-escreva-aqui');
@@ -20,7 +18,6 @@ var form = document.getElementById('Página1');
         var LinkQuetionario = document.getElementById('LinkQuetionario');
 
         var turno = document.getElementById('turno');
-        var periodo = document.getElementById('periodo');
         var horario = document.getElementById('horario');
         var capacitacao = document.getElementById('capacitacao');
         var contErro = 0;
@@ -86,17 +83,15 @@ var form = document.getElementById('Página1');
         required('.msg-documento',documento,"Documento")
         required('.msg-estado',estado,"Estado")
         required('.msg-cidade',cidade,"Cidade")
-        required('.msg-universidade',universidade,"Universidade")
-        required('.msg-formato',formato,"Formato")
-        required('.msg-matricula',matricula,"Número de matrícula")
-        required('.msg-curso',curso,"Curso")
+        required('.msg-escolaridade',escolaridade,"Escolaridade")
+        required('.msg-estuda',estuda,"Estuda")
+
         required('.msg-trabalha',trabalha,"Trabalha?")
         required('.msg-necessidades',necessidades,"Necessidades Especiais")
         required('.msg-interesse',interesse,"Interesse no programa")
         required('.msg-publico',publico,"Público de Reassentamento?")
         
         required('.msg-turno',turno,"Turno")
-        required('.msg-periodo',periodo,"Período")
         required('.msg-horario',horario,"Horário")
         required('.msg-capacitacao',capacitacao,"Como ficou Sabendo")
     
@@ -111,7 +106,7 @@ var form = document.getElementById('Página1');
             console.log("dasd")
             form.addEventListener("submit", e => {
                 e.preventDefault();
-                fetch("https://hook.us1.make.com/yfvgtvpc8hg5te3na3uy4ntjxxt72knz", {
+                fetch("https://hook.us1.make.com/emo6d98bfrbhh4saeuxgxpmlvipjijv9", {
                     method : "POST",
                     body: new FormData(document.getElementById("Página1")),
                 }).then(

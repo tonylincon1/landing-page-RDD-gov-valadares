@@ -5,12 +5,13 @@ form#Página1 {margin: 4%; text-align: justify;}
 .containerforms{padding-top:8%;text-align: center;width:50%}
 
 .forms h2 {
-    color: #ff8701;
+    color: #1C0A94;
     text-align: center;
+
 }
 
 .forms h3 {
-    color: #62186A;
+    color: #884ED9;
     text-align: center;
     line-height: 40px;
 }
@@ -52,10 +53,14 @@ form#Página1 {margin: 4%; text-align: justify;}
 /* Formulário */
 
 #Página1 h2 {
-    color: #FB133A;
+    color: #884ED9;
     font-size: 35px;
-    text-align: left;
+    text-align: center;
     font-family:'Open Sans', sans-serif;
+}
+
+textarea, input[type="text"] {
+    border-color: #884ED9;
 }
 
 h6 {
@@ -71,9 +76,9 @@ input::placeholder {
   }
 
 select::placeholder {
-color: #400a46;
-font-size: 15px;
-font-family:'Open Sans', sans-serif;;
+    color: #400a46;
+    font-size: 15px;
+    font-family:'Open Sans', sans-serif;;
 }
 
 textarea::placeholder {
@@ -95,7 +100,7 @@ input#E-mail {
 input#Idade {
     padding: 10px 8px;
     color: #400a46;
-    border: 2px solid #400a46;
+    border: 2px solid #884ED9;
     width: 49%;
     text-align: left;
     margin-bottom: 1%;
@@ -104,7 +109,7 @@ input#Idade {
 input#Telefone,input#horario {
     padding: 10px 8px;
     color: #400a46;
-    border: 2px solid #400a46;
+    border: 2px solid #884ED9;
     width: 49%;
     text-align: left;
     margin-bottom: 1%;
@@ -126,22 +131,22 @@ input#Cidade {
     width: 49%;
 }
 
-select#Estado {
+select#Estado,select#estuda,select#escolaridade {
     width: 49%;
     padding: 10px 8px;
     font-size: 15px;
     color: #400a46;
-    border: 2px solid #400a46;
+    border: 2px solid #884ED9;
     text-align: left;
     margin-bottom: 1%;
 }
 
 select#capacitacao {
-    width: 100%;
+    width: 49%;
     padding: 10px 8px;
     font-size: 15px;
     color: #400a46;
-    border: 2px solid #400a46;
+    border: 2px solid #884ED9;
     text-align: left;
     margin-bottom: 1%;
 }
@@ -171,7 +176,7 @@ select#Formato-\(presencial\/EAD\) {
     padding: 10px 8px;
     font-size: 15px;
     color: #400a46;
-    border: 2px solid #400a46;
+    border: 2px solid #884ED9;
     text-align: left;
     margin-bottom: 1%;
 }
@@ -192,7 +197,7 @@ select#Trabalha\? {
     padding: 10px 8px;
     font-size: 15px;
     color: #400a46;
-    border: 2px solid #400a46;
+    border: 2px solid #884ED9;
     width: 100%;
     text-align: left;
     margin-bottom: 1%;
@@ -204,7 +209,7 @@ select#Necessidades-especiais\? {
     padding: 10px 8px;
     font-size: 15px;
     color: #400a46;
-    border: 2px solid #400a46;
+    border: 2px solid #884ED9;
     text-align: left;
     margin-bottom: 1%;
     width: 49%;
@@ -221,7 +226,7 @@ select#Publico-de-Reassentamento\? {
     padding: 10px 8px;
     font-size: 15px;
     color: #400a46;
-    border: 2px solid #400a46;
+    border: 2px solid #884ED9;
     text-align: left;
     margin-bottom: 1%;
 }
@@ -232,7 +237,7 @@ textarea#Interesse {
     background-color: white;
     font-size: 15px;
     color: #400a46;
-    border: 2px solid #400a46;
+    border: 2px solid #884ED9;
     text-align: left;
     margin-bottom: 1%;
 }
@@ -261,11 +266,6 @@ input {
 
 .Politicadiv {
     margin-bottom: 1%;
-}
-
-input[type="submit"], input[type="file"] {
-    border-color: #00BAA7;
-    border-width: 6px;
 }
 
 span.msg-erro.msg-envio {

@@ -1,6 +1,6 @@
 body {
-    background-color: #400a46;
-    background-image: none;
+    background-color: white;
+    background-image: url(../images/fundo.png);
 }
 
 .mensagem.de.envio {
@@ -10,6 +10,10 @@ body {
     padding-top: 12%;
     margin-left: 5%;
     margin-right: 5%;
+}
+
+h2 {
+    color: #FF24A6;
 }
 
 .mensagem.de.envio a {
@@ -25,7 +29,7 @@ body {
 }
 
 .mensagem.de.envio p {
-    color: white;
+    color: #6412FA;
     font-size: 20px;
     padding-top: 1%;
 }

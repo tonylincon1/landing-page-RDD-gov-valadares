@@ -20,7 +20,7 @@
 	<link href="css/styleform.css" rel="stylesheet" type="text/css" />
     
 	<!-- FONTS -->
-	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,700,500,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">	
     
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -162,27 +162,27 @@
 					  <input id="Cidade" name="Cidade" type="text" placeholder="Cidade">
 					  <span class='msg-erro msg-cidade'></span>
 
-					  <input id="Universidade" name="Universidade" type="text" placeholder="Universidade/Faculdade">
-					  <span class='msg-erro msg-universidade'></span>
-
-					  <select id="Formato-(presencial/EAD)" name="Formato-(presencial/EAD)" placeholder="Formato">
-						<option value="">Formato</option>
-						<option value="EAD">EAD</option>
-						<option value="Presencial">Presencial</option>
+					  <select id="escolaridade" name="escolaridade" placeholder="Escolaridade?">
+						<option value="">Escolaridade</option>
+						<option value="Ensino Fundamental Incompleto">Ensino Fundamental Incompleto</option>
+						<option value="Ensino Fundamental Completo">Ensino Fundamental Completo</option>
+						<option value="Ensino Médio Incompleto">Ensino Médio Incompleto</option>
+						<option value="Ensino Médio Completo">Ensino Médio Completo</option>
+						<option value="Graduação Incompleta">Graduação Incompleta</option>
+						<option value="Graduação Completa">Graduação Completa</option>
+						<option value="Pós Graduação Completa">Pós Graduação Completa</option>
 					  </select>
-					  <span class='msg-erro msg-formato'></span>
+					  <span class='msg-erro msg-escolaridade'></span>
 
-					  <input id="turno" name="turno" type="text" placeholder="Turno da Universidade">
+					  <select id="estuda" name="estuda" placeholder="Estuda Atualmente?">
+						<option value="">Estuda Atualmente?</option>
+						<option value="Sim">Sim</option>
+						<option value="Não">Não</option>
+					  </select>
+					  <span class='msg-erro msg-estuda'></span>
+
+					  <input id="turno" name="turno" type="text" placeholder="Turno">
 					  <span class='msg-erro msg-turno'></span>
-
-					  <input id="Número-de-matrícula" name="Número-de-matrícula" type="text" placeholder="Matrícula">
-					  <span class='msg-erro msg-matricula'></span>
-
-					  <input id="periodo" name="periodo" type="text" placeholder="Período (considerar a partir de jan/23)">
-					  <span class='msg-erro msg-periodo'></span>
-
-					  <input id="Curso" name="Curso" type="text" placeholder="Curso">
-					  <span class='msg-erro msg-curso'></span>
 
 					  <select id="Trabalha?" name="Trabalha?" placeholder="Trabalha?">
 						<option value="">Trabalha?</option>
@@ -227,7 +227,7 @@
 					  </select>
 					  <span class='msg-erro msg-publico'></span>
 
-					  <textarea id="Interesse" name="Interesse" placeholder="Carta de intenção (Por que você deve ser selecionado?)"></textarea>
+					  <textarea id="Interesse" name="Interesse" placeholder="Carta de intenção (Escreva por que deseja participar do projeto)"></textarea>
 					  <span class='msg-erro msg-interesse'></span>
 
 					  <label for="LinkQuetionario">Anexar o <a href="https://docs.google.com/spreadsheets/d/1ZijXaejT9taAsDHTVgNWx6OJzTIVVNKZ/copy" target="_blank">Questionário de Deligência</a>: </label><input type="file"  accept="application/pdf" name="LinkQuetionario" class="LinkQuetionario" id="LinkQuetionario" required>
@@ -263,9 +263,9 @@
 					<div class="text-white-50 small">
 						<div class="mb-2"><img src="images/logo_final.png" alt=""></div>
 						<p>Ainda tem dúvidas? Entre em contato conosco:</p>
-						<p><i class="fa fa-envelope"> oficial@campustechgovernadorvaladares.com.br</i></p>
+						<p><i class="fa fa-envelope"> oficial@rddvaladares.com.br</i></p>
 						<p><i class="fa fa-phone"> +55 31 3401-1046</i></p>
-						<div class="mb-2">&copy; Todos os direitos reservados a Campus Tech, 2022.</div>
+						<div class="mb-2">&copy; Todos os direitos reservados a Rio Doce Digital, 2022.</div>
 					</div>
 				</div>
 			</div>
