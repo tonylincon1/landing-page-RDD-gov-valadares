@@ -373,7 +373,7 @@ blockquote:before {content:'“'; position:absolute; left:15px; top:13px; font-s
 }
 
 .purpose_block .container1 .popup2 p {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 
@@ -2337,14 +2337,21 @@ input[type="color"]:focus {
 }
 
 .texto_inicial {
+	padding-top: 5%;
 	padding-bottom: 7%;
 	text-align: left;
+	margin-left: 7%;
 }
 
 .texto_inicial li {
 	padding-bottom: 5%;
 	display: flex;
 	align-items: center;
+}
+
+.texto_inicial p {
+	margin:0px;
+	margin-left: 5%;
 }
 
 
@@ -2767,7 +2774,7 @@ input[type="color"]:focus {
 	}
 
 	.purpose_block .container1 .popup2 p {
-		font-size: 20px;
+		font-size: 15px;
 	}
 
 	.purpose_block .container1 .popup2 h2 {
@@ -2962,7 +2969,7 @@ input[type="color"]:focus {
 	}
 
 	.purpose_block .container1 .popup2 p {
-		font-size: 20px;
+		font-size: 15px;
 	}
 
 	.purpose_block .container1 .popup2 h2 {
@@ -3074,8 +3081,8 @@ input[type="color"]:focus {
 	}
 
 	.motivos_ul {
-		width: 90%;
-		padding-left:12%;
+		width: 100%;
+		padding-left:10%;
 		padding-bottom: 0%;
 	}
 
@@ -3217,7 +3224,7 @@ input[type="color"]:focus {
 	}
 
 	.purpose_block .container1 .popup2 p {
-		font-size: 15px;
+		font-size: 10px;
 	}
 
 	.purpose_block .container1 .popup2 h2 {
