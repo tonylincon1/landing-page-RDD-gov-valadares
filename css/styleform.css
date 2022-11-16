@@ -141,6 +141,12 @@ select#Estado,select#estuda,select#escolaridade {
     margin-bottom: 1%;
 }
 
+.video {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
 select#capacitacao {
     width: 49%;
     padding: 10px 8px;
